@@ -4,9 +4,11 @@ It is impossible to setup some cameras at all. Some cameras can be added, but se
 
 This integration depends on [onvif-zeep-async==1.0.0](https://github.com/hunterjm/python-onvif-zeep-async) and `onvif-zeep-async` depends on [zeep[async]==4.0.0](https://github.com/mvantellingen/python-zeep).
 
-Zeep 4.0.0 has been released half of year ago. It contains a lot of pull request for many months. I have no idea if my [patch](https://github.com/mvantellingen/python-zeep/pull/1206) will be merged and when.
+Zeep 4.0.0 has been released in October 2020. It contains a lot of pull request for many months. I have no idea if my [patch](https://github.com/mvantellingen/python-zeep/pull/1206) will be merged and when.
 After that, you need to wait for a new release and it should be integrated into Home Assistant.
 Perhaps you need to wait another year. Perhaps this will never happen. Who knows?
+
+*UPD: Zeep 4.1.0 has been released in August 2021. My patch was merged and then reverted. It seems the official ONVIF component won't be fixed in the coming years.*
 
 I have collected few own patches to `zeep` and `ONVIF integration`.
 I have renamed `zeep` and `onvif-zeep-async` modules to avoid conflicts and fixed the `ONVIF integration` to use these modules.
