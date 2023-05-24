@@ -1,3 +1,6 @@
+***This patch is obsolete. The ONVIF integration has been finally fixed in HA 2023.5***
+
+
 The [ONVIF](https://www.home-assistant.io/integrations/onvif/) integration in `Home Assistant` is very conservative.
 It does not work with many cameras because some bugs are not fixed for years.
 It is impossible to setup some cameras at all. Some cameras can be added, but sensors do not work. 
