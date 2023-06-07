@@ -1,5 +1,6 @@
 ***This patch is obsolete. The ONVIF integration has been finally fixed in HA 2023.5***
 
+***UPD 2023.6:*** Something is changed in the ONVIF integration around pull point subscribtion / webhooks. It caused most XM cameras to hang/reboot/glitches. The WebHooks option in the integration settings helps with some cameras, but not for all. I'm going back to use this patch instead of build-in ONVIF integration again.
 
 The [ONVIF](https://www.home-assistant.io/integrations/onvif/) integration in `Home Assistant` is very conservative.
 It does not work with many cameras because some bugs are not fixed for years.
