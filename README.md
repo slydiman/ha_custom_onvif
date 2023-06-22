@@ -1,6 +1,6 @@
-***This patch is obsolete. The ONVIF integration has been finally fixed in HA 2023.5***
+***UPD 2023.5: This patch is obsolete. The ONVIF integration has been finally fixed in HA 2023.5***
 
-***UPD 2023.6:*** Something is changed in the ONVIF integration around pull point subscribtion / webhooks. It caused most XM cameras to hang/reboot/glitches. The WebHooks option in the integration settings helps with some cameras, but not for all. I'm going back to use this patch instead of build-in ONVIF integration again.
+***UPD 2023.6: Something is changed in the ONVIF integration around pull point subscribtion / webhooks. It caused most XM cameras to hang/reboot/glitches. Disabling the WebHooks option in the integration settings helps with some XM cameras, but not for all. I'm going back to use this patch instead of build-in ONVIF integration again.***
 
 The [ONVIF](https://www.home-assistant.io/integrations/onvif/) integration in `Home Assistant` is very conservative.
 It does not work with many cameras because some bugs are not fixed for years.
@@ -13,7 +13,7 @@ Zeep 4.0.0 has been released in October 2020. It contains a lot of pull request 
 After that, you need to wait for a new release and it should be integrated into Home Assistant.
 Perhaps you need to wait another year. Perhaps this will never happen. Who knows?
 
-*UPD: Zeep 4.1.0 has been released in August 2021. My patch was merged and then reverted. It seems the official ONVIF component won't be fixed in the coming years.*
+***UPD 2021.8: Zeep 4.1.0 has been released in August 2021. My patch was merged and then reverted. It seems the official ONVIF component won't be fixed in the coming years.***
 
 [This merge request](https://github.com/home-assistant/core/pull/53432) is very revealing too.
 
