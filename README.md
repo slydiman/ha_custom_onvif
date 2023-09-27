@@ -2,6 +2,12 @@
 
 ***UPD 2023.6: Something is changed in the ONVIF integration around pull point subscribtion / webhooks. It caused most XM cameras to hang/reboot/glitches. Disabling the WebHooks option in the integration settings helps with some XM cameras, but not for all. I'm going back to use this patch instead of build-in ONVIF integration again.***
 
+***UPD 2023.9: I recommend to use the following instead of ONVIF integration***
+- https://github.com/AlexxIT/go2rtc add-on
+- https://github.com/AlexxIT/WebRTC integration and the card `custom:webrtc-camera`
+- https://github.com/dbuezas/icsee-ptz in case of XM/XMEye/ICSee/Sofia cameras or DVRs
+---
+
 The [ONVIF](https://www.home-assistant.io/integrations/onvif/) integration in `Home Assistant` is very conservative.
 It does not work with many cameras because some bugs are not fixed for years.
 It is impossible to setup some cameras at all. Some cameras can be added, but sensors do not work. 
